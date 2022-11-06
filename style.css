@@ -158,7 +158,38 @@ header .search-input img {
 }
 
 /* Mobile Responsive */
-@media (max-width: 490px) {
+@media (max-width: 500px) {
+  header .title {
+    width: 350px;
+  }
+  header input {
+    width: 350px;
+  }
+
+  .content {
+    gap: 25px;
+    margin: 25px 0px;
+  }
+  .content .item {
+    width: 350px;
+  }
+  .content .item h2 {
+    font-size: 18px;
+  }
+  .content .item p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .content .item .info {
+    margin-bottom: 20px;
+  }
+  .content .item .info p {
+    font-size: 12px;
+  }
+}
+
+/* Small Mobile Responsive */
+@media (max-width: 370px) {
   header .title {
     width: 200px;
   }

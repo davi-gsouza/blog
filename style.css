@@ -191,30 +191,24 @@ header .search-input img {
 /* Small Mobile Responsive */
 @media (max-width: 370px) {
   header .title {
-    width: 200px;
+    width: 300px;
   }
   header input {
-    width: 200px;
-  }
-
-  .content {
-    gap: 25px;
-    margin: 25px 0px;
+    width: 300px;
   }
   .content .item {
-    width: 200px;
+    width: 300px;
   }
-  .content .item h2 {
-    font-size: 18px;
+}
+
+@media (max-width: 320px) {
+  header .title {
+    width: 275px;
   }
-  .content .item p {
-    font-size: 12px;
-    line-height: 22px;
+  header input {
+    width: 275px;
   }
-  .content .item .info {
-    margin-bottom: 20px;
-  }
-  .content .item .info p {
-    font-size: 12px;
+  .content .item {
+    width: 275px;
   }
 }
